@@ -1,15 +1,17 @@
 name: Publish Docker
-on: [push]
+on: 
+  push:
+    tags: 
+      - '*'
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
-    - name: Publish to Registry
-      uses: HurricanKai/Publish-Docker-Github-Action@master
-      if: contains(github.ref, 'refs/tags/v')
-      with:
-        name: xavierniu/zfile
-        username: ${{ secrets.DOCKER_USERNAME }}
-        password: ${{ secrets.DOCKER_PASSWORD }}
-        tagging: true
+      - uses: actions/checkout@master
+      - name: Publish to Registry
+        uses: elgohr/Publish-Docker-Github-Action@master
+        with:
+          name: xavierniu/zfile
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
+          tag_names: true
