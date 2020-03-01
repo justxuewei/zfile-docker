@@ -1,6 +1,9 @@
 # ZFile Docker
 
-此Docker镜像由Xavier Niu维护，基于Alpine Linux镜像，采用zfile `v1.9`。
+此Docker镜像由Xavier Niu维护，基于：
+
+- lsiobase/alpine:3.11
+- zfile 2.0
 
 ## 运行
 

@@ -1,12 +1,12 @@
 FROM lsiobase/alpine:3.11
 
-ARG ZFILE_VERSION=1.9
+ARG ZFILE_VERSION=2.0
 
 ENV PUID=1000
 ENV PGID=1000
 ENV TZ="Asia/Shanghai"
 
-LABEL maintainer="Xavier Niu"
+LABEL MAINTAINER="Xavier Niu"
 
 RUN \
     echo ">>>>>> update dependencies <<<<<<" \
