@@ -5,6 +5,8 @@
 - lsiobase/alpine:3.11
 - zfile:2.0
 
+Docker Hub: [xavierniu/zfile](https://hub.docker.com/r/xavierniu/zfile)
+
 ## 运行
 
 使用Docker运行
