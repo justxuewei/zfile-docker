@@ -3,7 +3,7 @@
 此Docker镜像由Xavier Niu维护，基于：
 
 - lsiobase/alpine:3.11
-- zfile:2.1
+- zfile:2.2
 
 Docker Hub: [xavierniu/zfile](https://hub.docker.com/r/xavierniu/zfile)
 
