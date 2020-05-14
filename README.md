@@ -3,7 +3,7 @@
 此Docker镜像由Xavier Niu维护，基于：
 
 - lsiobase/alpine:3.11
-- zfile:2.4
+- zfile:2.6
 
 Docker Hub: [xavierniu/zfile](https://hub.docker.com/r/xavierniu/zfile)
 
@@ -26,7 +26,7 @@ docker run -d --name zfile \
   -e TZ="Asia/Shanghai" \ # optional
   -p 8080:8080 \
   --restart=unless-stopped \
-  -v <YOUR ZFILE CONFIG PATH>:/root/.zfile \
+  -v <YOUR ZFILE CONFIG PATH>:/root/.zfile-new \
   -v <YOUR ZFILE DATA PATH>:/zfile \
   xavierniu/zfile
 ```
