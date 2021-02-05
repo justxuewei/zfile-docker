@@ -3,7 +3,7 @@
 此Docker镜像由Xavier Niu维护，基于：
 
 - lsiobase/alpine:3.11
-- zfile:2.8.1
+- zfile:2.9.0
 
 Docker Hub: [xavierniu/zfile](https://hub.docker.com/r/xavierniu/zfile)
 
@@ -11,7 +11,7 @@ Docker Hub: [xavierniu/zfile](https://hub.docker.com/r/xavierniu/zfile)
 
 ZFile是一个在线文件目录的程序，支持对象存储和本地存储，使用定位是个人网盘或公共文件库。
 
-预览地址: [https://zfile.jun6.net](https://zfile.jun6.net/)
+GitHub Repo: [https://github.com/zhaojun1998/zfile](https://github.com/zhaojun1998/zfile)
 
 文档地址: http://docs.zhaojun.im/zfile
 
